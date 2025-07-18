@@ -28,13 +28,7 @@ const BookModal = ({ book, onClose }) => {
           <BiUserCircle className="text-red-300 text-2xl" />
           <h2 className="my-1">{book.author}</h2>
         </div>
-        <p className="mt-4">Anything you want to show</p>
-        <p className="my-2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa,
-          corporis molestias aliquid quia vel itaque non quae libero molestiae,
-          veniam voluptas, id quasi error nulla debitis rem minima similique
-          corrupti.
-        </p>
+        
       </div>
     </div>
   );
